@@ -1,0 +1,31 @@
+body{
+  margin:0;
+  background-color:#505050;
+  font-family: 'VT323', monospace;
+  font-size:24px;
+}
+canvas{
+  display:block;
+  margin:auto;
+  margin-top:25px;
+}
+#mainInfo{
+  text-align:right;
+  width:475px;
+  height:475px;
+  position:absolute;
+  color:lightgrey;
+  left:calc(50% - (475px / 2) - 500px);
+}
+#otherInfo{
+  text-align:left;
+  width:475px;
+  height:475px;
+  position:absolute;
+  color:lightgrey;
+  right:calc(50% - (475px / 2) - 500px);
+}
+h2{
+  margin:0;
+  margin-bottom:5px;
+}
